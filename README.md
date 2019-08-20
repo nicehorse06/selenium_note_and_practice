@@ -1,0 +1,87 @@
+# Selenium
+
+## todo
+* 用Selenium做爬蟲、自動化測試
+* 可用Python或JS實作
+* [Puppeteer VS Selenium](https://linuxhint.com/puppeteer_vs_selenium/)
+
+## 以下為舊文章待整理
+## Selenium remote server文章
+* [Remote Webdriver](http://www.easonhan.info/webdriver/2013/05/28/remote-server/)
+* [Selenium grid for RC and WebDriver](https://github.com/SeleniumHQ/selenium/wiki/Grid2)
+* [Selenium Ubuntu Node Configuration on VirtualBox](http://brome-hq.logdown.com/posts/305608-selenium-ubuntu-node-configuration-on-virtualbox)
+* [Running selenium tests on Virtual box guest](http://stackoverflow.com/questions/30531849/running-selenium-tests-on-virtual-box-guest)
+
+
+## Selenium Grid 相關文章
+* [官方介紹](http://www.seleniumhq.org/docs/07_selenium_grid.jsp)
+* [如何架設 Selenium Grid (包含 hub 與 node)](http://blog.darkwing.co/2016/03/%E5%A6%82%E4%BD%95%E6%9E%B6%E8%A8%AD-selenium-grid-%E5%8C%85%E5%90%AB-hub-%E8%88%87-node/)
+* [使用 Selenium Grid 並行測試](http://openhome.cc/Gossip/JUnit/SeleniumGrid.html)
+* [Slenium DOC 官方網站](http://docs.seleniumhq.org/docs/index.jsp)
+* [Running Standalone Selenium Server for use with RemoteDrivers](http://docs.seleniumhq.org/docs/03_webdriver.jsp#running-standalone-selenium-server-for-use-with-remotedrivers)
+
+
+
+* [WebDriver and the Selenium-Server](http://docs.seleniumhq.org/docs/03_webdriver.jsp#webdriver-and-the-selenium-server)
+
+```
+You may, or may not, need the Selenium Server, depending on how you intend to use Selenium-WebDriver. If your browser and tests will all run on the same machine, and your tests only use the WebDriver API, then you do not need to run the Selenium-Server; WebDriver will run the browser directly.
+```
+
+
+
+
+### 官方網站Doc
+#### Test Design Considerations
+
+```
+This chapter presents programming techniques for use with Selenium-WebDriver and Selenium RC. We also demonstrate techniques commonly asked about in the user forum such as how to design setup and teardown functions, how to implement data-driven tests (tests where one can vary the data between test passes) and other methods of programming common test automation tasks.
+```
+
+
+
+
+我們可以把找到的內容使用 get_attribute ()方法做比對，比如下面的最大長度
+
+```Python
+def test_search_text_field_max_length(self):
+    # get the search textbox
+    search_field = self.driver.find_element_by_id("search")
+    # check maxlength attribute is set to 128
+    self.assertEqual("128", search_field.get_attribute("maxlength"))
+```
+
+selenium的is_displayed()方法可以確定DOM上的某個項目有沒有出現
+
+[xpath上指定父節點的方法](http://stackoverflow.com/questions/28237694/xpath-get-parent-node-from-child)
+* 例如  test3_name = driver.find_element_by_xpath('//td[. = "horse_test"]/parent::tr')
+
+
+
+
+[Selenium的延迟等待](https://my.oschina.net/u/928852/blog/98885)
+
+
+[Selenium如何解決ElementNotFound的錯誤? (Wait 的使用情境)](http://www.qa-knowhow.com/?p=1561)
+
+
+[Selenium Officce Doc](http://www.seleniumhq.org/docs/)
+
+
+[Selenium gitbook](http://selenium-python.readthedocs.io/installation.html)
+
+[selenium + PhontomJS Python爬虫利器五之Selenium的用法](http://cuiqingcai.com/2599.html)
+
+
+[Selenium自动化测试Python一：Selenium入门](http://www.jianshu.com/p/4ce5ecef5f6c)
+
+
+[凌俣Linty selenium 介紹詳細](http://www.jianshu.com/users/af76d4b3d108/latest_articles)
+
+### 開啟chrome時遇到
+```
+selenium.common.exceptions.WebDriverException: Message: session not created exception from unknown error: Runtime.executionContextCreated has invalid
+```
+
+[解決方法:更新chrome外掛](http://stackoverflow.com/questions/40373801/python-selenium-webdriver-session-not-created-exception-when-opening-chrome
+https://bugs.chromium.org/p/chromedriver/issues/detail?id=1548)
