@@ -8,8 +8,9 @@
 * [使用Python的Selenium控制瀏覽器](http://tn00343140a.pixnet.net/blog/post/3465687-%E4%BD%BF%E7%94%A8python%E7%9A%84selenium%E6%8E%A7%E5%88%B6%E7%80%8F%E8%A6%BD%E5%99%A8)
 * [Python 學習筆記 : Selenium 模組瀏覽器自動化測試 (二)](http://yhhuang1966.blogspot.com/2018/05/python-selenium_27.html)
 * [Python 走入現實：selenium](https://ithelp.ithome.com.tw/articles/10203693?sc=iThelpR)
-* [高级爬虫: 让 Selenium 控制你的浏览器帮你爬](https://morvanzhou.github.io/tutorials/data-manipulation/scraping/5-01-selenium/)
+* [莫烦 高级爬虫: 让 Selenium 控制你的浏览器帮你爬](https://morvanzhou.github.io/tutorials/data-manipulation/scraping/5-01-selenium/)
 * [[爬蟲實戰] 如何使用 Selenium 以及 Python 輕鬆抓取 Agoda 的旅館資訊?](https://www.youtube.com/watch?v=MQH4Rau_F_A)
+* [[Selenium] 如何使用 Selenium 撰寫網路爬蟲?](https://www.youtube.com/watch?v=DdZ9ScpYbE8)
 
 ## 以下為舊文章待整理
 ## Selenium remote server文章
