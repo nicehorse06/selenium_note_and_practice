@@ -4,6 +4,11 @@
 * 用Selenium做爬蟲、自動化測試
 * 可用Python或JS實作
 * [Puppeteer VS Selenium](https://linuxhint.com/puppeteer_vs_selenium/)
+* [Selenium with Python](https://selenium-python.readthedocs.io/index.html)
+* [使用Python的Selenium控制瀏覽器](http://tn00343140a.pixnet.net/blog/post/3465687-%E4%BD%BF%E7%94%A8python%E7%9A%84selenium%E6%8E%A7%E5%88%B6%E7%80%8F%E8%A6%BD%E5%99%A8)
+* [Python 學習筆記 : Selenium 模組瀏覽器自動化測試 (二)](http://yhhuang1966.blogspot.com/2018/05/python-selenium_27.html)
+* [Python 走入現實：selenium](https://ithelp.ithome.com.tw/articles/10203693?sc=iThelpR)
+* [高级爬虫: 让 Selenium 控制你的浏览器帮你爬](https://morvanzhou.github.io/tutorials/data-manipulation/scraping/5-01-selenium/)
 
 ## 以下為舊文章待整理
 ## Selenium remote server文章
