@@ -1,8 +1,10 @@
 # Selenium
 
-
 ## 參考文章
-### [Python bindings for Selenium](https://pypi.org/project/selenium/)
+### [selenium github](https://github.com/SeleniumHQ/selenium)
+### [官方舊文檔](https://docs.seleniumhq.org/docs/)
+### [Selenium with Python 非官方使用手冊](https://selenium-python.readthedocs.io/index.html)
+### [官方 API documentation](https://seleniumhq.github.io/selenium/docs/api/py/)
     * 有selenium的安裝，和各瀏覽器driver的載點，和基礎範例
     * 安裝流程：
     * 1.pip安裝selenium 
@@ -12,7 +14,6 @@
 * 用Selenium做爬蟲、自動化測試
 * 可用Python或JS實作
 * [Puppeteer VS Selenium](https://linuxhint.com/puppeteer_vs_selenium/)
-* [Selenium with Python](https://selenium-python.readthedocs.io/index.html)
 * [使用Python的Selenium控制瀏覽器](http://tn00343140a.pixnet.net/blog/post/3465687-%E4%BD%BF%E7%94%A8python%E7%9A%84selenium%E6%8E%A7%E5%88%B6%E7%80%8F%E8%A6%BD%E5%99%A8)
 * [Python 學習筆記 : Selenium 模組瀏覽器自動化測試 (二)](http://yhhuang1966.blogspot.com/2018/05/python-selenium_27.html)
 * [Python 走入現實：selenium](https://ithelp.ithome.com.tw/articles/10203693?sc=iThelpR)
