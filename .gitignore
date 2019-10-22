@@ -1,0 +1,13 @@
+*.pyc
+__pycache__
+staticfiles
+db.sqlite3
+dev*
+.vscode
+*.sqlite
+*env/
+.pytest_cache
+*.db
+*/log/*
+© 2019 GitHub, Inc.
+geckodriver.*

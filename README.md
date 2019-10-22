@@ -1,5 +1,13 @@
 # Selenium
 
+
+## 參考文章
+### [Python bindings for Selenium](https://pypi.org/project/selenium/)
+    * 有selenium的安裝，和各瀏覽器driver的載點，和基礎範例
+    * 安裝流程：
+    * 1.pip安裝selenium 
+    * 2.把driver放在 /usr/bin 或 /usr/local/bin (不用root權限)
+
 ## todo
 * 用Selenium做爬蟲、自動化測試
 * 可用Python或JS實作
