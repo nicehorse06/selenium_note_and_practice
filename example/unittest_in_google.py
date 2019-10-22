@@ -1,6 +1,8 @@
 import unittest
 from selenium import webdriver
 
+# 做Google網頁標題的單元測試
+
 class GoogleTestCase(unittest.TestCase):
 
     def setUp(self):
