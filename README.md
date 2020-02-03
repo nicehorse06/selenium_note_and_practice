@@ -3,7 +3,7 @@
 ## 參考文章
 ### [selenium github](https://github.com/SeleniumHQ/selenium)
 ### [官方舊文檔](https://docs.seleniumhq.org/docs/)
-### [Selenium with Python 非官方使用手冊](https://selenium-python.readthedocs.io/index.html)
+### [Selenium with Python 非官方使用手冊](https://selenium-python.readthedocs.io/index.html) 可以從這一個開始練習 !!!!
 ### [官方 API documentation](https://seleniumhq.github.io/selenium/docs/api/py/)
     * 有selenium的安裝，和各瀏覽器driver的載點，和基礎範例
     * 安裝流程：
